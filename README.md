@@ -73,3 +73,11 @@ Component -> Rendering -> LOD Group :  거리에 따라 로드 되는 LOD를 변
 - particle
 - Mesh
 
+
+
+### Server
+
+---
+
+- TCP :  데이터를 잘 수신했는지 확인하고 누락되면 다시 재전송함 
+- UDP : 데이터를 확인하지 않고 보냄, 빠른 데이터 환경에서 사용 
